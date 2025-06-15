@@ -1,0 +1,33 @@
+00:57:45 - Styles in React --------Done
+01:10:20 - Props in React--------Done
+01:33:40 - Conditional Rendering --------Done
+01:48:53 - Map (Dynamic Content)--------Done
+02:08:08 - Key Attribute for Components--------Done
+02:13:52 - Handling Missing Data--------Done
+02:17:30 - Sorting & Filtering--------Done
+02:26:49 - Click Events Handling--------Done
+02:44:57 - Use State Hook--------Done
+03:12:21 - Methods as Props--------Done
+03:29:34 - Use Effect Hook--------Done
+03:56:03 - Fetch API Data --------Done
+04:26:12 - Error Handling--------Done
+04:50:08 - Custom Hooks in React--------Done
+05:05:14 - OnChange Event Handling--------NOT YET
+05:42:23 - React Router--------Done
+06:04:35 - Clean Up & Updater Function--------NOT YET
+06:33:17 - Use Context Hook --------Done
+06:50:31 - Use Ref Hook--------Done
+07:06:07 - Dynamic Path (params)--------NOT YET
+07:27:35 - Component Life Cycle 
+07:46:14 - Instagram Clone -1 NavBar
+08:16:57 - Instagram Clone -2 Posts Feed
+08:49:44 - Instagram Clone -3 Suggestions
+09:12:24 - Instagram Clone -4 Stories
+10:00:29 - Instagram Clone -5 Profile (CRUD Operations)
+
+
+https://www.youtube.com/watch?v=01bEb7R-F4s&t=12302s&ab_channel=codeio-Tamil
+
+
+
+https://www.youtube.com/watch?v=_Tw87kvxOKs

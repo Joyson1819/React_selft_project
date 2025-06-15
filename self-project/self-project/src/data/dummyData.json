@@ -1,0 +1,32 @@
+{
+   "course": [
+    {
+      "id": 1,
+      "CourseDetails": "Java",
+      "Price": 10,
+      "image": "../Course/maxresdefault.jpg",
+      "Rate": "Rating :3"
+    },
+    {
+      "id": 2,
+      "CourseDetails": "Python",
+      "Price": 50,
+      "image": "../Course/python-course.jpg",
+      "Rate": "Rating :2"
+    },
+    {
+      "id": 3,
+      "CourseDetails": "C",
+      "Price": 70,
+      "image": "../Course/Cprogram.jpg",
+      "Rate": "Rating :5"
+    },
+    {
+      "id": 4,
+      "CourseDetails": "React",
+      "Price": 15,
+      "image": "../Course/Cprogram.jpg",
+      "Rate": "Rating :5"
+    }
+  ]
+}

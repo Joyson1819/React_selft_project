@@ -1,0 +1,96 @@
+ <CourseDetails CourseDetails ="Java" Price="$10"/>
+
+ if we are Using "$10" or else we can use {10} as a number
+
+----------------------------------------------------------------------------
+
+ conditional rendering 
+
+we can wrap with if else 
+
+_------------------------------------------------------------
+
+Map and filter
+
+map transforms each element of an array based on a provided function, creating a new array with the transformed values. filter creates a new array containing only elements from the original array that meet a specific condition defined by a provided function. 
+map 
+
+Purpose: Apply a transformation to each element of an array and return a new array with the transformed results.
+How it works: The map() method iterates through the original array, applying a function to each element. The function's return value becomes the corresponding element in the new array.
+Example: To double each number in an array: 
+JavaScript
+
+    const numbers = [1, 2, 3, 4];
+    const doubledNumbers = numbers.map(number => number * 2); // doubledNumbers will be [2, 4, 6, 8]
+Free Code Camp 
+
+
+filter 
+
+
+Purpose: Create a new array containing only elements from the original array that satisfy a given condition.
+How it works: The filter() method iterates through the original array, applying a function to each element. If the function returns true for an element, that element is included in the new array. If the function returns false, the element is excluded.
+Example: To filter out even numbers from an array: 
+JavaScript
+
+    const numbers = [1, 2, 3, 4, 5, 6];
+    const evenNumbers = numbers.filter(number => number % 2 === 0); // evenNumbers
+
+-----------------------------------------------------------------
+
+
+     <button style={{marginLeft:"30px"}} onClick={buttonHandle}>Submit</button> 
+
+      if we give  {buttonHandle()} it will call all the times
+
+---------------------------------------------------------------
+onClcik using arugument 
+
+      const buttonHandle =(discount)=>
+  {
+
+    console.log(props.CourseDetails,"Button Clicked",discount, "Discount value");
+  }
+
+
+<button style={{marginLeft:"30px"}} onClick={()=>buttonHandle(20)}>Submi
+
+
+---------------------------------------------------------------------
+
+useEffect 
+
+
+it will get the function as arugument it will run all the code when the function reload
+
+
+
+
+--------------------------
+
+Router 
+
+this both is used for the router 
+
+import { createBrowserRouter,RouterProvider } from 'react-router-dom';
+
+-------------------------------------------------
+
+CONTEXT 
+
+It is used to prevent from props drilling we use context api 
+
+import {createContext} from react
+
+before the function we need to add 
+Syntax
+export  const varName = createContext() 
+<dataContext.provided value={varName}>
+</dataContext>
+
+
+
+import {dataContext} from '/path'
+
+
+CONST datatype =useContext()
